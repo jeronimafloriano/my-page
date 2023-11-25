@@ -1,0 +1,28 @@
+body {
+    margin: 0; /* Remove a margem */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6E86F6; /* Cor de fundo da barra de navegação */
+}
+
+nav ul li {
+    display: inline;
+    float: right;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse por cima */
+}

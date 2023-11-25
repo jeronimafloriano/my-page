@@ -1,0 +1,70 @@
+.container {
+    background-color: #f9f6f6;
+}
+
+.container-projetos {
+    margin: 0;
+    padding: 20px;
+    margin-left: 50px;
+    font-family:'Open Sans';
+    padding-top: 80px;
+
+}
+
+
+
+.projeto-grid {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 80px;
+}
+
+.projeto {
+    background-color: #6E86F6;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.titulo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.titulo-retangulo {
+    width: 20px;
+    height: 20px;
+    background-size: cover; 
+    background-image: url("../../assets/icone-github.png");
+}
+
+.titulo h2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.titulo-link {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.descricao {
+    margin-top: 10px;
+}
+
+.container-projetos h1 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.container-projetos  p {
+    font-size: 15px;
+  }
+
+
