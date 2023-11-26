@@ -10,11 +10,16 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    height: auto;
   }
   
-  .image {
-    max-width: 80%;
-    height: auto;
+  .imagem-corpo {
+    width: 80%; 
+    height: 80vh; 
+    margin: 20px; 
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../assets/corpo.jpg'); 
   }
   
   .right-side {
@@ -62,10 +67,26 @@
   }
   
   .social-icons a {
-    margin: 0 5px;
+    margin: 0 4px;
+    display: inline-block; 
   }
-
-  .social-icons a img {
+  
+  .icone-linkedin,
+  .icone-instagram,
+  .icone-devto {
     width: 20px; 
     height: 20px; 
+    background-size: cover;
+  }
+  
+  .icone-linkedin {
+    background-image: url('../../assets/icone-linkedin.png');
+  }
+  
+  .icone-instagram {
+    background-image: url('../../assets/icone-instragram.png');
+  }
+  
+  .icone-devto {
+    background-image: url('../../assets/icone-devto.webp');
   }
