@@ -21,7 +21,6 @@
 
 .sobre {
     margin: 0;
-    height: 100vh; 
     display: flex;
     background-color: #f9f6f6; 
 }
@@ -56,14 +55,21 @@
 
 @media screen and (min-width: 768px) {
   .imagem {
-  width: 20%;
+  width: 100%;
   height: 60%;
   margin: 40px; 
+  padding-bottom: 50px;
+  }
+}
+
+.imagem-corpo {
+  width: 50%;
+  height: 60%;
+  margin: 80px; 
   padding-bottom: 50px;
   background-image: url('../assets/rosto.jpg'); 
   background-size: cover;
   background-position: center;
-  }
 }
 
 @media screen and (max-width: 768px) {
