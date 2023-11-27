@@ -14,9 +14,8 @@
   }
   
   .imagem-corpo {
-    width: 80%; 
-    height: 80vh; 
-    margin: 20px; 
+    width: 70%; 
+    height: 90vh; 
     background-size: cover;
     background-position: center;
     background-image: url('../../assets/corpo.jpg'); 
@@ -48,6 +47,7 @@
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    margin-right: 50px;
   }
   
   .social-header {
