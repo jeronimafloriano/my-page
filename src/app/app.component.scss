@@ -1,5 +1,4 @@
 .fundo {
-    height: 100vh; 
     display: flex;
     flex-direction: column;
   }
@@ -47,10 +46,8 @@
 
 .imagem {
   width: 100%;
-  height: 60%;
   margin: 40px; 
-  padding-bottom: 50px;
-  }
+}
 
 .imagem-corpo {
   width: 50%;
