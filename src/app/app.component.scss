@@ -5,7 +5,7 @@
   }
   
 .cabecalho {
-    height: 20%; 
+    height: 100%; 
     background-color: #6E86F6; 
     font-family:'Open Sans';
     text-align: center;
@@ -28,7 +28,7 @@
   
 .texto {
     margin-left: 50px;
-    width: 50%; 
+    width: 120%; 
     font-family:'Open Sans';
   }
   
@@ -46,12 +46,12 @@
 }
   
 .imagem {
-    width: 30%; 
-    height: 80vh; 
-    margin: 60px; 
-    background-image: url('../assets/rosto.jpg'); 
-    background-size: cover;
-    background-position: center;
-  }
+  width: 100%;
+  height: 100%;
+  margin: 60px; 
+  background-image: url('../assets/rosto.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
   
   
